@@ -64,24 +64,28 @@ endmodule
 **RTL realization**
 
 **F1**
-![rtl1](https://github.com/user-attachments/assets/57bf5229-518c-4d3b-86a1-898448e24614)
+![new f1](https://github.com/user-attachments/assets/1146e2a2-1578-409e-b809-a3a199a9c940)
+
 
 
 
 **F2**
-![rtl2](https://github.com/user-attachments/assets/678edeef-bc05-4b5f-801c-45da58114179)
+![new f2](https://github.com/user-attachments/assets/21352699-f9ba-49c2-8dce-9c998af97902)
+
 
 
 
 **Output:**
 
 **F1**
-![td1](https://github.com/user-attachments/assets/e21f4e3e-25a2-4b86-8b9a-534f757c814c)
+![new f1o](https://github.com/user-attachments/assets/64961e2f-0873-424a-9f56-0bc82eee99c6)
+
 
 
 
 **F2**
-![td](https://github.com/user-attachments/assets/6c6f9ab7-8aa8-4eeb-b276-89bfa4151994)
+![new f2o](https://github.com/user-attachments/assets/6c13bd79-880d-45e6-8686-14a95fcc687f)
+
 
 
 
