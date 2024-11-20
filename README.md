@@ -14,10 +14,6 @@ Hardware – PCs, Cyclone II , USB flasher
 
 **Software – Quartus prime**
 
-**Theory**
-
-**Logic Diagram**
-
 **Procedure**
 
 1.	Type the program in Quartus software.
@@ -32,61 +28,61 @@ Hardware – PCs, Cyclone II , USB flasher
 
 
 **Program:**
-
-/* Program to implement the given logic function and to verify its operations in quartus using Verilog programming. 
-
-Developed by: RAHUL VIJAY V
-RegisterNumber: 212223040164
-
+Program to implement the given logic function and to verify its operations in quartus using Verilog programming. 
 ```
-F1
-module exp02(a,b,c,d,f1);
+Developed by: RAHUL VIJAY V
+RegisterNumber:212223040164
+```
+```
+module de_exp_2(a,b,c,d,f1);
 input a,b,c,d;
 output f1;
 assign f1=((~b & ~d) | (a & b & ~c) | (~a & b & d));
 endmodule
 
-F2
-module project22(w,x,y,z,f2);
+```
+```
+module proj23(w,x,y,z,f2);
 input w,x,y,z;
 output f2;
 assign f2= ((~y&z)|(w&y)|(x&y));
 endmodule
 ```
-
 **TRUTH TABLE**
-![image](https://github.com/user-attachments/assets/22370d1b-17b9-4c79-b5ad-9c9c1422cef6)
 
-![image](https://github.com/user-attachments/assets/01a37c85-5a5d-43cb-a5dd-f9bbe50557e7)
+F1
+![image](https://github.com/user-attachments/assets/1557f0c2-fbb6-42e1-b1f1-dd1cc245dbde)
+
+
+F2
+
+![Screenshot 2024-11-20 160948](https://github.com/user-attachments/assets/d6788986-8f5e-4ffb-85de-18ee9df1fb0b)
 
 
 
 **RTL realization**
 
-**F1**
-![new f1](https://github.com/user-attachments/assets/1146e2a2-1578-409e-b809-a3a199a9c940)
+F1
+
+![image](https://github.com/user-attachments/assets/390dee0a-6285-4af9-94f3-aa0d18d09bd1)
 
 
+F2
 
-
-**F2**
-![new f2](https://github.com/user-attachments/assets/21352699-f9ba-49c2-8dce-9c998af97902)
-
+![image](https://github.com/user-attachments/assets/2b6ece49-d879-47e9-884c-3f7daf819025)
 
 
 
 **Output:**
 
-**F1**
-![new f1o](https://github.com/user-attachments/assets/64961e2f-0873-424a-9f56-0bc82eee99c6)
+F1
+
+![image](https://github.com/user-attachments/assets/08ba5e9e-087e-48dc-acbd-6861f4582a0c)
 
 
+F2
 
-
-**F2**
-![new f2o](https://github.com/user-attachments/assets/6c13bd79-880d-45e6-8686-14a95fcc687f)
-
-
+![image](https://github.com/user-attachments/assets/ddfce599-fb32-4695-bd54-e4296250389f)
 
 
 **Result:**
